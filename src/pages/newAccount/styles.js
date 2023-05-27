@@ -13,7 +13,9 @@ export const Container = styled.main`
 `
 
 export const Wrapper = styled.div`
-    max-width: 300px;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
 `
 
 export const Column = styled.div`
@@ -22,8 +24,7 @@ export const Column = styled.div`
 
 export const Row = styled.div`
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: row;    
     align-items: center;
     margin-top: 20px;
 `
@@ -68,7 +69,7 @@ export const EsqueciText  = styled.p`
     font-size: 14px;
     line-height: 19px;
 
-    color: #E5E044;
+    color: #fff;
 ` 
 
 export const CriarText =  styled.a`
@@ -77,6 +78,6 @@ export const CriarText =  styled.a`
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-
+    margin-left: 0.5rem;
     color: #23DD7A;
 `
